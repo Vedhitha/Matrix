@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    text-align: center;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  textarea {
+    width: 100px;
+    height: 100px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
