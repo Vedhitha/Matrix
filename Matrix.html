@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matrix Multiplication Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Matrix Multiplication Calculator</h1>
+    <form id="matrix-form">
+      <label for="matrix-size">Select the matrix size:</label>
+      <input type="text" id="matrix-size" placeholder="A: rows1 columns1, B: rows2 columns2">
+      <br><br>
+      <label for="matrix-a">The first matrix:</label>
+      <textarea id="matrix-a" rows="5" cols="5"></textarea>
+      <br><br>
+      <label for="matrix-b">The second matrix:</label>
+      <textarea id="matrix-b" rows="5" cols="5"></textarea>
+      <br><br>
+      <button type="submit">Calculate</button>
+    
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+    <script src="j.js"></script>
+  </body>
+</html>
